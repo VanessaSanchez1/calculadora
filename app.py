@@ -11,16 +11,16 @@ def calculate():
     try:
         num1 = float(request.form['num1'])
         num2 = float(request.form['num2'])
-        operation = request.form['operation']
+        operation = request.form['operacion']
         
-        if operation == 'add':
+        if operation == 'sumar':
             result = num1 + num2
-        elif operation == 'subtract':
+        elif operation == 'restar':
             result = num1 - num2
-        elif operation == 'multiply':
+        elif operation == 'multiplicar':
             result = num1 * num2
-        elif operation == 'divide':
-            result = num1 / num2 if num2 != 0 else "Error: Division by zero"
+        elif operation == 'dividir':
+            result = num1 / num2 if num2 != 0 else "Error: Division x 0"
         else:
             result = "Invalid operation"
         
