@@ -19,7 +19,7 @@ ACTIVAR ENTORNO VIRTUALIZADO
 
 .\venv\Scripts\activate
 
-INSTALAR DEPENDECIAS
+INSTALAR DEPENDENCIAS
 
 pip install werkzeug==2.0.3
 
