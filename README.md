@@ -11,48 +11,48 @@ Esta es una aplicación web simple de calculadora desarrollada con Flask, conten
 ## 🚀 Cómo ejecutar localmente
 
 ```bash
-\_CREAR ENTORNO VIRTUAL\_
+CREAR ENTORNO VIRTUAL
 
 py -m venv venv
 
-\_ACTIVAR ENTORNO VIRTUALIZADO\_
+ACTIVAR ENTORNO VIRTUALIZADO
 
 .\venv\Scripts\activate
 
-\_INSTALAR DEPENDENCIAS\_
+INSTALAR DEPENDECIAS
 
 pip install werkzeug==2.0.3
 
 pip install coverage
 
-\_EJECUTAR APLICACION\_
+EJECUTAR APLICACION
 
 python app.py
 
 en el terminal mostrara un enlace 
 http://localhost:5000
 
-\_EJECUTAR PRUEBAS UNITARIAS\_
+EJECUTAR PRUEBAS UNITARIAS
 
 python -m unittest tests/test_app.py
 
-\_GENERAR REPORTE\_
+GENERAR REPORTE
 
 coverage run -m unittest discover -s tests
 
-\_VER REPORTE EN CONSOLA\_
+VER REPORTE EN CONSOLA
 
 coverage report
 
-\_GENERAR REPORTE EN HTML\_
+GENERAR REPORTE EN HTML
 
 coverage html
 
-\_ABRIR REPORTE EN WEB\_ 
+ABRIR REPORTE EN WEB 
 
 htmlcov/index.html
 
-\_APLICAR DOCKER\_
+APLICAR DOCKER
 
 Construir la imagen:
 
